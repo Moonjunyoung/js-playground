@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var isPrime=Number(prompt('숫자를 입력해주세요 !'))
+        var cnt=0
+        for(var i=1;i<=isPrime;i++){
+            if(isPrime%i===0){
+                cnt+=1
+            }
+        }
+        if(cnt==2){
+            document.write('소수입니다.')
+        }
+        else{
+            document.write('소수가 아닙니다.')
+        }
+
+    </script>
+    
+</body>
+</html>
